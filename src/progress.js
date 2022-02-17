@@ -11,7 +11,6 @@ class Progressbar extends React.Component{
                 <p class="text-dark w-25 ">{this.props.course}</p>
             <div class={this.props.percent} role="progressbar" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100"></div>
              </div>
-            
         )
     }
 }
